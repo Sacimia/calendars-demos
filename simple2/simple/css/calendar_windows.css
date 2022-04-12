@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+
+*{
+    box-sizing: border-box !important;
+    color: white;
+    text-transform: capitalize !important;
+    font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.win-grid{
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: stretch;
+    text-align: center;
+    padding: 2rem;
+    cursor: default;
+}
+
+.win-btn-active{
+    background: red;
+}
+
+.win-btn-inactive{
+    color: #ffffff5f;
+}
+
+.win-btn-selected{
+    border: 3px solid red;
+}
+
+button:focus{
+    outline: none;
+}
+
+.today{
+    background: #212323;
+}
+
+.win-btn-active-unselected{
+    background-origin: border-box;
+}
+
+.win-btn:hover{
+    border: 3px solid rgba(255, 255, 255 ,0.4);
+}
+
+.win-btn-selected:hover{
+    border: 3px solid hsl(0, 70%, 50%) !important;
+}
+
+.win-btn-active:hover{
+    border: 3px solid hsl(0, 90%, 75%);
+}

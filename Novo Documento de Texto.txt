@@ -1,0 +1,8 @@
+Olá isso daqui é somente uns exemplos de calendários. 
+Alguns arquivos estão incompletos.
+O arquivo simple2 está somente em português exceto as datas exemplo Wed 12 April 2022.
+
+
+Hello this here is just calendars examples.
+There some files isn't complete. 
+The file simple2 is just in portuguese excet the dates example WED 12 April 2022.
